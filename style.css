@@ -1,0 +1,175 @@
+body {
+    display: flex;
+    font-family: Arial, sans-serif;
+    background-color: #121212;
+    color: #ffffff;
+    margin: 0;
+}
+
+.sidebar {
+    width: 250px;
+    height: 1200px;
+    background-color: #000000;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.logo img {
+    width: 130px;
+    margin-bottom: 30px;
+}
+
+.logos {
+    width: 30px;
+}
+
+.john-doe {
+    background-color: gray;
+}
+
+nav ul,
+.playlist ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li,
+.playlist ul li {
+    margin: 15px 0;
+}
+
+nav ul li a,
+.playlist ul li a {
+    text-decoration: none;
+    color: #b3b3b3;
+}
+
+.playlist {
+    margin-top: 20px;
+}
+
+.user {
+    padding-bottom: 40px;
+    margin-top: auto;
+    display: flex;
+    align-items: center;
+}
+
+.user img {
+    width: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.main-content {
+    flex: 1;
+    padding: 20px;
+    background-color: rgb(24, 25, 37);
+}
+
+header {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+header ul {
+    display: flex;
+    list-style: none;
+}
+
+header ul li {
+    margin: 0 15px;
+}
+
+header ul li a {
+    text-decoration: none;
+    color: #b3b3b3;
+}
+
+.button-bar {
+    color: #ffffff;
+    display: flex;
+}
+
+header .upgrade-btn {
+    background-color: rgb(4, 2, 19);
+    border-radius: 20px;
+    color: #ffffff;
+    border-color: #ffffff;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.recently-played,
+.created-for-you,
+.popular-artists {
+    margin-top: 20px;
+}
+
+.albums,
+.recommendations {
+    display: flex;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+
+.album,
+.recommendation {
+    width: 150px;
+    text-align: center;
+}
+
+.album img,
+.recommendation img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+.album .subtitle,
+.recommendation .subtitle {
+    color: #b3b3b3;
+}
+
+footer.player {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #282828;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+footer.player .current-track {
+    display: flex;
+    gap: 10px;
+}
+
+footer.player .current-track img {
+    width: 50px;
+    margin-right: 10px;
+}
+
+footer.player .controls button {
+    background: none;
+    border: none;
+    color: #ffffff;
+    font-size: 20px;
+    margin: 0 5px;
+    cursor: pointer;
+}
+
+footer.player .progress,
+.volume {
+    display: flex;
+    align-items: center;
+}
+
+footer.player .progress input,
+.volume input {
+    margin: 0 10px;
+}

@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="sidebar">
+        <div class="logo">
+            <img src="img/logo.svg" alt="Spotify Logo">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#"> <img class="logos" src="img/home.svg" alt="">Home</a></li>
+                <li><a href="#"> <img class="logos" src="img/search.svg" alt="">Cerca</a></li>
+                <li><a href="#"> <img class="logos" src="img/libreria.svg" alt="">La tua libreria</a></li>
+            </ul>
+        </nav>
+        <div class="playlist">
+            <h2>PLAYLIST</h2>
+            <ul>
+                <li><a href="#"> <img src="img/playlist.svg" alt="">Crea Playlist</a></li>
+                <li><a href="#">Nome Playlist</a></li>
+                <li><a href="#">Nome Playlist</a></li>
+                <li><a href="#">Nome Playlist</a></li>
+                <li><a href="#">Nome Playlist</a></li>
+                <li><a href="#">Nome Playlist</a></li>
+            </ul>
+        </div>
+        <div class="user">
+            <img src="img/download.svg" alt="">
+            <span>Installa app</span>
+        </div>
+        <div>
+            <img class="logos" style="background-color: grey; border-radius: 30px;" src="img/profile.svg"
+                alt="User Avatar">
+            <span>John Doe</span>
+        </div>
+    </div>
+    <div class="main-content">
+        <header>
+            <div class="container">
+                <div class="button-bar">
+                    <button class="upgrade-btn">EFFETTUA L'UPGRADE</button>
+                </div>
+            </div>
+            <ul>
+                <li><a href="#">IN EVIDENZA</a></li>
+                <li><a href="#">PODCAST</a></li>
+                <li><a href="#">CLASSIFICHE</a></li>
+                <li><a href="#">GENERI E MOOD</a></li>
+                <li><a href="#">NUOVE USCITE</a></li>
+                <li><a href="#">SCOPRI</a></li>
+            </ul>
+        </header>
+        <section class="recently-played">
+            <h2>Recently played</h2>
+            <div class="albums">
+                <div class="album">
+                    <img src="img/metal_lifting.jpg" alt="Heavy Metal">
+                    <p>Heavy Metal</p>
+                    <p class="subtitle">Subtitle</p>
+                </div>
+                <div class="album">
+                    <img src="img/stranger.jpeg" alt="Stranger Things">
+                    <p>Stranger Things, Vol. 1</p>
+                    <p class="subtitle">Kyle Dixon & Michael Stein</p>
+                </div>
+                <div class="album">
+                    <img src="img/aquietplace.jpeg" alt="A Quiet Place">
+                    <p>A Quiet Place</p>
+                    <p class="subtitle">Subtitle</p>
+                </div>
+                <div class="album">
+                    <img src="img/split.jpeg" alt="Split">
+                    <p>Split</p>
+                    <p class="subtitle">Subtitle</p>
+                </div>
+                <div class="album">
+                    <img src="img/cure.jpeg" alt="A Cure for Wellness">
+                    <p>A Cure for Wellness</p>
+                    <p class="subtitle">Subtitle</p>
+                </div>
+                <div class="album">
+                    <img src="img/sinister.jpeg" alt="Sinister">
+                    <p>Sinister</p>
+                    <p class="subtitle">Subtitle</p>
+                </div>
+            </div>
+        </section>
+        <section class="created-for-you">
+            <h2>Creato per John Doe</h2>
+            <p>Più ascolti, più accurati saranno i suggerimenti.</p>
+            <div class="recommendations">
+                <div class="recommendation">
+                    <img src="img/radar.jpeg" alt="Release Radar">
+                    <p>Il tuo Release Radar</p>
+                </div>
+                <div class="recommendation">
+                    <img src="img/mixdaily.jpeg" alt="Daily Mix 1">
+                    <p>Il tuo Daily Mix 1</p>
+                </div>
+            </div>
+        </section>
+        <section class="popular-artists">
+            <h2>Artisti più popolari</h2>
+            <p>Più ascolti, più accurati saranno i suggerimenti.</p>
+            <div class="recommendations">
+                <div class="recommendation">
+                    <img src="img/youg.jpeg" alt="Artist 1">
+                    <p>Artist 1</p>
+                </div>
+                <div class="recommendation">
+                    <img src="img/einaudi.jpeg" alt="Artist 2">
+                    <p>Artist 2</p>
+                </div>
+            </div>
+        </section>
+    </div>
+    <footer class="player">
+        <div class="current-track">
+            <img src="img/sinister.jpeg" alt="Sinister">
+            <p><b>Sinister</b></p>
+            <p class="track-name">Brano Nome</p>
+        </div>
+        <div class="controls">
+            <button>⏮️</button>
+            <button>⏯️</button>
+            <button>⏭️</button>
+        </div>
+        <div class="progress">
+            <span>0:25</span>
+            <input type="range" value="25">
+            <span>4:35</span>
+        </div>
+        <div class="volume">
+            <button>🔊</button>
+            <input type="range" value="50">
+        </div>
+    </footer>
+</body>
+
+</html>
